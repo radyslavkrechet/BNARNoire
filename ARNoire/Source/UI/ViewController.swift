@@ -92,10 +92,10 @@ class ViewController: UIViewController, ViewProtocol, ARCoachingOverlayViewDeleg
     }
 
     func showClue(_ clue: String) {
-        let newClue = "ViewController.newClue".localized.uppercased() + "\n\(clue)"
-        clueLabel.text = newClue
-        clueLabel.isHidden = false
         clueTimer?.invalidate()
+
+        clueLabel.text = "ViewController.newClue".localized.uppercased() + "\n\(clue)"
+        clueLabel.isHidden = false
 
         clueTimer = Timer.scheduledTimer(withTimeInterval: shortSubtitlesDelay, repeats: false) { [weak self] _ in
             self?.clueLabel.isHidden = true
@@ -103,12 +103,10 @@ class ViewController: UIViewController, ViewProtocol, ARCoachingOverlayViewDeleg
     }
 
     func showSubtitles(_ subtitles: String) {
-        clueLabel.isHidden = true
-        clueTimer?.invalidate()
+        subtitlesTimer?.invalidate()
 
         subtitlesLabel.text = subtitles
         subtitlesLabel.isHidden = false
-        subtitlesTimer?.invalidate()
 
         let subtitlesDelay = subtitles.count > subtitlesLengthBreakValue ? longSubtitlesDelay : shortSubtitlesDelay
 
