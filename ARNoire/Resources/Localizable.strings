@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  ARNoire
+
+  Created by Radyslav Krechet on 22.01.2020.
+  Copyright © 2020 Radyslav Krechet. All rights reserved.
+*/
+
+"Suspect.wife.name" = "Wife";
+"Suspect.secretary.name" = "Secretary";
+
+"Clue.wallet.name" = "Wallet";
+"Clue.wallet.phrase" = "A-ha! I got an address. It will be very sad news for his wife.";
+"Clue.knife.name" = "Knife";
+"Clue.knife.phrase" = "Bloddy knife. I guess this is a murder weapon.";
+"Clue.baseballGlove.name" = "Baseball Glove";
+"Clue.baseballGlove.phrase" = "Looks like we have a baseball fan here.";
+"Clue.baseballTicket.name" = "Baseball Ticket";
+"Clue.baseballTicket.phrase" = "Ticket for the upcoming match? Interesting!";
+"Clue.baseball.name" = "Baseball";
+"Clue.baseball.phrase" = "Baseball with a signature of the best player of the team. Wow! Probably expensive.";
+"Clue.divorcePapers.name" = "Divorce Papers";
+"Clue.divorcePapers.phrase" = "Divorce papers? Seems he wasn't happy in marriage. Why?";
+"Clue.flowers.name" = "Flowers";
+"Clue.flowers.phrase" = "";
+
+"Object.phrase.0" = "Maybe? Definitely not.";
+"Object.phrase.1" = "There is no interesting here.";
+"Object.phrase.2" = "Hm... not for this case, right?";
+
+"Scene.busStop.phrase" = "So, I need to find some evidence, as quickly as I can.";
+"Scene.kitchen.phrase" = "His wife isn't really upset. I asked for a cup of coffee, so I have some time to look around.";
+"Scene.office.phrase" = "I'll try to find something in his office before a conversation with the secretary.";
+
+"Interrogation.wife.0.question" = "- Did your husband have any enemies?\n- No, he was a decent and honest man. Like many of his colleagues, by the way. Except the secretary.";
+"Interrogation.wife.0.goodCop" = "- Did he have a problem with her?\n- She just doesn't know how to do her job right. And she causes trouble sometimes.";
+"Interrogation.wife.0.badCop" = "- What don't you like about her?\n- It's appearance. She should wear not so short skirts!";
+"Interrogation.wife.1.question" = "- Describe your day yesterday.\n- I baked a birthday cake for my husband, decided to surprise him and went to congratulate him at work. Then I went home to wait for him for dinner, but he didn't come back.";
+"Interrogation.wife.1.goodCop" = "- Were you alone all night?\n- Yes, that's right.";
+"Interrogation.wife.1.badCop" = "- So you, sitting alone, didn't worry about it?\n- I had wanted to call the police this morning, but you came earlier.";
+"Interrogation.wife.baseballGlove.question" = "- A baseball glove in your kitchen. Your husband?\n- Yes, he was a big fan. Thanks to his love of sports, he became the chief editor of the sports column.";
+"Interrogation.wife.baseballGlove.goodCop" = "- Probably an interesting profession.\n- Yeah, he loved his job.";
+"Interrogation.wife.baseballGlove.badCop" = "- But you didn't like his position, did you?\n- I loved my husband, Detective, and shared his interests and views.";
+"Interrogation.wife.baseballTicket.question" = "- A baseball ticket is a gift for your husband?\n- Yes, his favorite team will play.";
+"Interrogation.wife.baseballTicket.goodCop" = "- Probably a very important gift.\n- Yeah, he never went to their match.";
+"Interrogation.wife.baseballTicket.badCop" = "- Didn't you go to his work to congratulate him?\n- Oh... Yes, I went. Just forgot the ticket at home and bought flowers along the way.";
+"Interrogation.wife.conclusion" = " If you don't have any more questions, I'd like to be alone.\n- Of course, I'll go to his husband's work and try to find out something.";
+
+"Interrogation.secretary.0.question" = "- What was your relationship with the victim? Have you ever had a problem?\n- He was my boss, I was his subordinate, no problem, that's all.";
+"Interrogation.secretary.0.goodCop" = "- You were lucky with the boss, his wife said he was a decent person.\n- And very talented, by the way. Such a loss!";
+"Interrogation.secretary.0.badCop" = "- And how did such a young lady become a secretary in a man with such a high position?\n- I guess I have a natural charisma. How does it relate to the investigation?";
+"Interrogation.secretary.1.question" = "- How did your workday end yesterday?\n- After work, I went to the opposite bar and then went home.";
+"Interrogation.secretary.1.goodCop" = "- Was there anything to celebrate?\n- No, I just decided to relax with a glass of wine.";
+"Interrogation.secretary.1.badCop" = "- To the bar, without reasons? You hide something!\n- The boss had a birthday, he got me a drink and followed me home. That's all!";
+"Interrogation.secretary.baseball.question" = "- A baseball in the office, it's in a prominent place, a valuable gift, a?\n- Yeah, that's my gift. Unlike his wife, I know what to give!";
+"Interrogation.secretary.baseball.goodCop" = "- Quite a loud statement.\n- Well, it's not my fault that I know how to deal with men.";
+"Interrogation.secretary.baseball.badCop" = "- Really? As I know, she didn't come empty-handed yesterday. You should have seen her. Do you remember?\n- Yes, she came yesterday, but she didn't even bring flowers and left almost immediately.";
+"Interrogation.secretary.divorcePapers.question" = "- I found divorce papers in the office. Do you know anything about this?\n- What documents? I don't know anything about it.";
+"Interrogation.secretary.divorcePapers.goodCop" = "- Looks like your boss wanted to divorce his wife.\n- They had problems in their relationship, but I didn't think that it would come to that.";
+"Interrogation.secretary.divorcePapers.badCop" = "- Stop putting on an act. He decided to divorce his wife and there's a reason - you!\n- He didn't love his wife, he loved me. And I loved his money. It's very simple, detective.";
+"Interrogation.secretary.conclusion" = " Any questions? Great, I still have a lot of work to do.\n- Of course, I'll contact you if I need anything. But now I need to look into the evidence.";
+
+"Notebook.phrase.0" = "I'm only wasting my time.";
+"Notebook.phrase.1" = "Does it make sense?";
+"Notebook.phrase.2" = "Maybe I missed something.";
+
+"ViewController.newClue" = "New Clue";
